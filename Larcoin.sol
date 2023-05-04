@@ -11,5 +11,5 @@ contract LarcoinToken is ERC20, Ownable{
     constructor() ERC20("Larcoin", "LRCN"){}
 
     function issueToken() public onlyOwner{
-        _mint(msg.sender, 1000000000*10**15);
+        _mint(msg.sender, 100000000*10**15);
     }}
